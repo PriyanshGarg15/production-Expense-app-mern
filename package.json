@@ -1,0 +1,23 @@
+{
+  "name": "expense_tracker_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm start\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "Priyansh",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "concurrently": "^9.1.0",
+    "expense_tracker_app": "file:",
+    "moment": "^2.30.1",
+    "moongose": "^1.0.0",
+    "morgan": "^1.10.0"
+  }
+}
